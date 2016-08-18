@@ -19,7 +19,13 @@
 @endsection
 
 @section('content')
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <div class="col-lg-8 col-lg-offset-0 col-md-10 col-md-offset-0">
         @include('themes.clean-blog.partials.posts-list', $posts)
+    </div>
+@endsection
+
+@section('sidebar')
+    <div class="col-lg-4 col-lg-offset-0 col-md-2 col-md-offset-0">
+        有梦想的青年在路上不从不寂寞！
     </div>
 @endsection

@@ -28,4 +28,10 @@
             </div>
         </div>
     </article>
-    @endsection
+@endsection
+
+@section('sidebar')
+    <div class="col-lg-4 col-lg-offset-0 col-md-2 col-md-offset-0">
+        有梦想的青年在路上不从不寂寞！
+    </div>
+@endsection
